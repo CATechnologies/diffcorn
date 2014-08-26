@@ -7,4 +7,4 @@ before_install:
   - gem install --no-rdoc --no-ri cocoapods -v 0.33
 
 script:
-  - xctool test -workspace TestProject.xcworkspace -scheme TestProjectTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace TestProject.xcworkspace -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
