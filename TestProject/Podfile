@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+target :TestProjectTests, :exclusive => true do
+  pod 'Kiwi'
+end
